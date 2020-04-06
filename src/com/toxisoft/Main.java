@@ -3,8 +3,6 @@ package com.toxisoft;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -13,7 +11,8 @@ public class Main {
 
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("http://www.google.com");
-
+        System.out.println("Hola");
+        System.out.println("Hola Tú");
 
     }
 }
